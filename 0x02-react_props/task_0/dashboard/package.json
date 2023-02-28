@@ -1,7 +1,7 @@
 {
   "name": "dashboard",
   "version": "1.0.0",
-  "main": "./src/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "webpack serve --mode development --config config/webpack.config.js",
     "build": "webpack --mode production --config config/webpack.config.js",
@@ -40,5 +40,6 @@
       "\\.(jpg|png)$": "<rootDir>/__mocks__/fileMock.js"
     }
   },
+  "keywords": [],
   "description": ""
 }

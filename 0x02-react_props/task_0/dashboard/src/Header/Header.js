@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
-import logo from '../assets/holberton-logo.jpg';
+import logo from '../assets/logo.jpg';
 
-function Header() {
+export default function Header() {
   return (
     <header className='header'>
       <img src={logo} alt='logo' />
@@ -10,5 +10,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
