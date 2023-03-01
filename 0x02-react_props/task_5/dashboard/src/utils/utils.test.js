@@ -2,7 +2,8 @@ import React from 'react';
 import { getFullYear, getFooterCopy, getLatestNotification } from './utils';
 
 it('getFullYear', () => {
-  expect(getFullYear()).toEqual(new Date().getFullYear());
+  expect(getFullYear()).toEqual(new Date().getFullYear())
+
 });
 it('getFooterCopy with true', () => {
   expect(getFooterCopy(true)).toEqual('Holberton School');
