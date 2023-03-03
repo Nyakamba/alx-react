@@ -1,4 +1,4 @@
-const path = require('path');
+t path = require('path');
 
 
 module.exports = {
@@ -45,4 +45,4 @@ module.exports = {
 					compress: true,
 					port: 8564,
 				},
-};
+};01~
