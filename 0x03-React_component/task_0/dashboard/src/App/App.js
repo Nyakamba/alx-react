@@ -32,7 +32,7 @@ class App extends PureComponent {
 				<Notifications listNotifications={listNotifications} />
 				<Header />
 				<div className="App-body">
-					{this.isLoggedIn ? <CourseList listCourses={listCourses} /> : <Login />}
+			{	this.isLoggedIn ? <CourseList listCourses={listCourses} /> : <Login />}
 				</div>
 				<div className="App-footer">
 					<Footer />
