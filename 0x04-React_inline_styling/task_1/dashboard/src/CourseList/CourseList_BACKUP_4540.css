@@ -10,7 +10,7 @@
 }
 
 .course-list td {
-text-align: left;
+  text-align: left;
 }
 =======
 .course-list th[colspan='2'] {
