@@ -41,7 +41,7 @@ module.exports = {
 		},
 	},
 	devServer: {
-		contentBase: './dist',
+		static: './dist',
 		compress: true,
 		open: true,
 		hot: true,
