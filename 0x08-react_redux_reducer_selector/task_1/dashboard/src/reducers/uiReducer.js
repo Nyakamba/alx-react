@@ -5,6 +5,7 @@ import {
 	LOGIN_FAILURE,
 	LOGOUT,
 } from '../actions/uiActionTypes';
+import { Map } from 'immutable';
 
 const defaultState = {
 	isNotificationDrawerVisible: false,
