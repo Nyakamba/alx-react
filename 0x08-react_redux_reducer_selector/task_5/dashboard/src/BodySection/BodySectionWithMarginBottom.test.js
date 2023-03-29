@@ -29,4 +29,4 @@ describe('<BodySection />', () => {
     // expect(wrapper.find('.bodySectionWithMargin')).toHaveProperty('margin-bottom', '40px');
     // expect(wrapper.find('.bodySectionWithMargin')).toBeDefined();
   });
-})
+});

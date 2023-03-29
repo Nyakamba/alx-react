@@ -23,4 +23,4 @@ describe('<BodySection />', () => {
     expect(wrapper.find('p')).toHaveLength(1);
     expect(wrapper.find('p').text()).toBe('test children node');
   });
-})
+});
