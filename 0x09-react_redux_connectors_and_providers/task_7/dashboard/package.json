@@ -182,6 +182,7 @@
     "http-proxy-middleware": "^2.0.6",
     "human-signals": "^2.1.0",
     "iconv-lite": "^0.4.24",
+    "immutable": "^4.3.0",
     "import-local": "^3.1.0",
     "imurmurhash": "^0.1.4",
     "inflight": "^1.0.6",
