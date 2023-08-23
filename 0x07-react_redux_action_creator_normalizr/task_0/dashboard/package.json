@@ -8,6 +8,7 @@
 		"build": "webpack -c ./config/webpack.config.js",
 		"start": "webpack serve --mode development --config config/webpack.config.js",
 		"test-watch": "jest --watch"
+		
 	},
 	"keywords": [],
 	"author": "",
