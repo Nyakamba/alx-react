@@ -46,5 +46,7 @@ it("checks getLatestNotification returns the correct string", () => {
   act(() => {
     render(getLatestNotification(), container);
   });
-  expect(container.textContent).toBe("<strong>Urgent requirement</strong> - complete by EOD");
+  expect(container.textContent).toBe(
+    "<strong>Urgent requirement</strong> - complete by EOD"
+  );
 });
