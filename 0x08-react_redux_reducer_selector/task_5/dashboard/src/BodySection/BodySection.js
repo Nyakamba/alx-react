@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { StyleSheet, css } from 'aphrodite';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { StyleSheet, css } from "aphrodite";
 
 const styles = StyleSheet.create({
   small: {
-    '@media (max-width: 900px)': {
-      display: 'grid',
-      justifyContent: 'center',
-      width: '50%',
-      textAlign: 'center',
-      marginLeft: 'auto',
-      marginRight: 'auto'
-    }
-  }
-})
+    "@media (max-width: 900px)": {
+      display: "grid",
+      justifyContent: "center",
+      width: "50%",
+      textAlign: "center",
+      marginLeft: "auto",
+      marginRight: "auto",
+    },
+  },
+});
 
 export default class BodySection extends Component {
   render() {
@@ -30,4 +30,4 @@ export default class BodySection extends Component {
 BodySection.propTypes = {
   title: PropTypes.string,
   // children: PropTypes.arrayOf(PropTypes.node)
-}
+};
