@@ -1,5 +1,6 @@
 /**
  * @jest-environment jsdom
+ * jest-environment jsdom
  */
 
 import React from "react";
@@ -46,5 +47,7 @@ it("checks getLatestNotification returns the correct string", () => {
   act(() => {
     render(getLatestNotification(), container);
   });
-  expect(container.textContent).toBe("<strong>Urgent requirement</strong> - complete by EOD");
+  expect(container.textContent).toBe(
+    "<strong>Urgent requirement</strong> - complete by EOD"
+  );
 });
