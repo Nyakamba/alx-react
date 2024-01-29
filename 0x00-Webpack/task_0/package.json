@@ -1,7 +1,6 @@
 {
   "name": "task_0",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
@@ -17,5 +16,6 @@
   },
   "dependencies": {
     "jquery": "^3.6.3"
-  }
+  },
+  "description": ""
 }
